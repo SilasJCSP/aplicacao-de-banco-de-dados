@@ -73,3 +73,83 @@ VALUES
 (NULL, 'Roberto Mendes', 'Palha Italiana', 8, 52.00),
 (NULL, 'Patricia Costa', 'Pudim', 3, 36.00);
 
+SELECT * FROM PRODUCT;
+
+SELECT * FROM CUSTOMER;
+
+SELECT * FROM ORDER_TABLE;
+
+SELECT *
+FROM PRODUCT
+WHERE PRICE > 5.00;
+
+SELECT *
+FROM CUSTOMER
+WHERE AGE > 18;
+
+SELECT *
+FROM ORDER_TABLE
+WHERE QUANTITY > 2;
+
+-- Produtos com preço maior que R$ 5,00
+SELECT *
+FROM PRODUCT
+WHERE PRICE > 5.00;
+
+-- Clientes com idade maior que 18 anos
+SELECT *
+FROM CUSTOMER
+WHERE AGE > 18;
+
+-- Pedidos com quantidade maior que 2
+SELECT *
+FROM ORDER_TABLE
+WHERE QUANTITY > 2;
+
+
+SELECT *
+FROM PRODUCT
+ORDER BY PRICE DESC;
+
+SELECT *
+FROM CUSTOMER
+ORDER BY AGE DESC;
+
+-- Produtos do mais caro para o mais barato
+SELECT *
+FROM PRODUCT
+ORDER BY PRICE DESC;
+
+-- Clientes do mais velho para o mais jovem
+SELECT *
+FROM CUSTOMER
+ORDER BY AGE DESC;
+
+SELECT *
+FROM PRODUCT
+LIMIT 5;
+
+SELECT *
+FROM CUSTOMER
+LIMIT 5;
+
+-- Exibir apenas 5 produtos
+SELECT *
+FROM PRODUCT
+LIMIT 5;
+
+-- Exibir apenas 5 clientes
+SELECT *
+FROM CUSTOMER
+LIMIT 5;
+
+SELECT *
+FROM PRODUCT
+ORDER BY PRICE DESC
+LIMIT 5;
+
+SELECT *
+FROM CUSTOMER
+ORDER BY AGE DESC
+LIMIT 5;
+
