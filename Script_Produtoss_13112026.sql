@@ -49,3 +49,27 @@ VALUES
 ('Ana Santos', 'Pao de Mel', 4, 24.00),
 ('Pedro Costa', 'Trufa de Chocolate', 8, 40.00);
 
+INSERT INTO PRODUCT
+VALUES
+(NULL, 'Cajuzinho', 'Doces tradicionais', 3.50, 70),
+(NULL, 'Cocada', 'Doces tradicionais', 4.00, 55),
+(NULL, 'Cupcake', 'Bolos e sobremesas', 9.00, 30),
+(NULL, 'Palha Italiana', 'Doces artesanais', 6.50, 45),
+(NULL, 'Pudim', 'Sobremesas', 12.00, 25);
+
+INSERT INTO CUSTOMER
+VALUES
+(NULL, 'Fernanda Lima', 29, 'Sorocaba', 'fernanda@gmail.com'),
+(NULL, 'Ricardo Alves', 38, 'Sao Paulo', 'ricardo@gmail.com'),
+(NULL, 'Juliana Martins', 26, 'Campinas', 'juliana@gmail.com'),
+(NULL, 'Roberto Mendes', 45, 'Itu', 'roberto@gmail.com'),
+(NULL, 'Patricia Costa', 33, 'Votorantim', 'patricia@gmail.com');
+
+INSERT INTO ORDER_TABLE
+VALUES
+(NULL, 'Fernanda Lima', 'Cajuzinho', 10, 35.00),
+(NULL, 'Ricardo Alves', 'Cocada', 15, 60.00),
+(NULL, 'Juliana Martins', 'Cupcake', 4, 36.00),
+(NULL, 'Roberto Mendes', 'Palha Italiana', 8, 52.00),
+(NULL, 'Patricia Costa', 'Pudim', 3, 36.00);
+
