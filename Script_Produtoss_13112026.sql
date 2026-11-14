@@ -153,3 +153,34 @@ FROM CUSTOMER
 ORDER BY AGE DESC
 LIMIT 5;
 
+SELECT *
+FROM PRODUCT
+WHERE NAME LIKE 'C%';
+
+SELECT *
+FROM CUSTOMER
+WHERE NAME LIKE '%a';
+
+SELECT *
+FROM PRODUCT
+WHERE NAME LIKE '%Chocolate%';
+
+SELECT *
+FROM NOVEL
+WHERE NAME LIKE '___Mundo%';
+
+-- 1. Produtos que começam com a letra P
+SELECT * FROM PRODUCT
+WHERE NAME LIKE 'P%';
+
+-- 2. Clientes cujos nomes começam com a letra M
+SELECT * FROM CUSTOMER
+WHERE NAME LIKE 'M%';
+
+-- 3. Produtos que contêm a palavra "de"
+SELECT * FROM PRODUCT
+WHERE NAME LIKE '%de%';
+
+-- 4. Novelas cujos nomes terminam com a letra "o"
+SELECT * FROM NOVEL
+WHERE NAME LIKE '%o';
